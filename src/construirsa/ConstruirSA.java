@@ -29,7 +29,7 @@ public class ConstruirSA {
             //carga de Drivers
             Class.forName("org.mariadb.jdbc.Driver");
             
-            // conexion! a la base de datos
+            // conexion a la base de datos
             
            Connection conexion=DriverManager.getConnection("jdbc:mariadb://localhost:3306/construirsa", "root", "");
            
